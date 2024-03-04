@@ -51,3 +51,10 @@ for x in range(sides):
     tr.left(angle)
 
 tr.end_fill()
+
+tr.penup()
+tr.left(180)
+tr.forward(55)
+tr.right(90)
+tr.forward(75)
+tr.right(90)
