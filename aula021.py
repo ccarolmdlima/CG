@@ -32,3 +32,22 @@ for x in range(sides):
 
 tr.color(237/255,36/255,36/255)
 tr.end_fill()
+
+tr.penup()
+tr.right(90)
+tr.forward(150)
+tr.left(90)
+tr.forward(55)
+tr.pendown()
+
+tr.color(94/255,75/255,59/255)
+tr.begin_fill()
+
+sides = 4
+angle = 360 / 4
+
+for x in range(sides):
+    tr.forward(40)
+    tr.left(angle)
+
+tr.end_fill()
