@@ -9,8 +9,10 @@ void desenho()
 	glBegin(GL_POINTS);
 		glVertex2f(-8, -5);
 		glVertex2f(8, 5);
+	
 		glVertex2f(-8, 0);
 		glVertex2f(8, 0);
+	
 		glVertex2f(-8, 5);
 		glVertex2f(8, -5);
 	glEnd();
